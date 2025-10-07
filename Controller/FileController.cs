@@ -124,7 +124,7 @@ namespace FileFragmentation
                 Console.WriteLine(Path.GetFileName(file));
             }
             Console.ResetColor();
-            Console.WriteLine("----------------------\n");
+          
         }
 
         private string[] SplitText(string text, int size)
@@ -155,7 +155,7 @@ namespace FileFragmentation
             {
                 Console.WriteLine(Path.GetFileName(file));
             }
-            Console.WriteLine("---------------------------\n");
+           
 
             Console.Write("Enter the fragment file name exactly (e.g., 001.txt): ");
             string fileName = Console.ReadLine()?.Trim();
